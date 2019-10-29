@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Raleway:300,400">
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyCCQEd2kiXjrLOzxZeQI8JL9P7mY0tTBCI"></script>
+    <title>Movies Land</title>
+  </head>
+  <body class="find-movie">
+    <header>
+      <div>
+        <ul>
+          <li class="dark-header">Movies Land</li>
+          <li><a class="dark-header" href="about-us.html">About Us</a></li>
+          <li><a class="dark-header" href="find-hike.html">Movies Game</a></li>
+          <li><a class="dark-header" href="index.html">Home</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="main-body">
+        <div class="find-hike-column-1"></div>
+        <div class="find-hike-div">
+          <form id="find-movie">
+            <fieldset>
+              <!-- age should be check box-->
+              <label>Age</label>
+              <input type="range" name="age" min="1" max="100">
+         
+            </fieldset>
+            <fieldset>
+              <label>Type</label>
+              <input type="radio" name="type" value="action" required><span>action</span>
+              <input type="radio" name="type" value="drama" required><span>drama</span>
+              <input type="radio" name="type" value="comedy" required><span>comedy</span>
+              
+            </fieldset>
+            <fieldset>
+              <label>Rate</label>
+              <input type="radio" name="rate" value="high" required><span>high</span>
+              <input type="radio" name="rate" value="mid" required><span>mid</span>
+              <input type="radio" name="rate" value="low" required><span>low</span>
+
+            </fieldset>
+            <button type="submit" id="submit-btn">Find Movie</button>
+          </form>
+        </div>
+        <div class="find-movie-column-2"></div>
+      </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
