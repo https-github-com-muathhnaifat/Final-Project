@@ -84,20 +84,20 @@ main {
   width: 70%;
   margin: 0% 15%;
 }
-/* Find Hike Form */
-.find-hike {
+/* Find movie Form */
+.find-movie {
   background-image: url('img/img13.jpg');
   background-size: cover;
   height: 70vh;
 }
-.find-hike-column-1 {
+.find-movie-column-1 {
   display: inline-block;
   width: 20%;
   float: left;
   height: 50px;
 }
 /* found opacity tricks from https://css-tricks.com/almanac/properties/o/opacity/ */
-.find-hike-div {
+.find-movie-div {
   display: inline-block;
   color: #000000; background: rgba(255, 255, 255, 0.9);
   height: auto;
@@ -105,7 +105,7 @@ main {
   margin-top: 5%;
   padding: 20px 10px;
 }
-.find-hike-column-2 {
+.find-movie-column-2 {
   display: inline-block;
   width: 20%;
   float: right;
@@ -143,14 +143,14 @@ form button {
   width: 60%;
   margin: 2% 10%;
 }
-/* Hike Results */
-#hike-results {
+/* movie Results */
+#movie-results {
   background-size: cover;
 }
-.hike-results-body {
+.movie-results-body {
   margin: 5 auto;
 }
-#main-hike {
+#main-movie {
   font-family: Raleway;
   /* width: 50%; */
   /* align: center; */
@@ -170,16 +170,16 @@ form button {
   position: relative;
   z-index: 99;
 }
-#main-hike-header {
+#main-movie-header {
   font-weight: bolder;
   font-size: 20px;
   text-decoration: underline;
   margin-bottom: 10px;
 }
-#main-hike-ul li {
+#main-movie-ul li {
   margin-top: 5px;
 }
-.main-hike-text {
+.main-movie-text {
   z-index: 100;
   margin: 0 auto;
   padding: 20px 15px;
@@ -195,13 +195,13 @@ form button {
   position: relative;
   z-index: 99;
 }
-#list-hike {
+#list-movie {
   z-index: 1;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 50px;
 }
-#list-hike-header {
+#list-movie-header {
   font-family: Raleway;
   font-weight: bolder;
   font-size: 20px;
@@ -211,7 +211,7 @@ form button {
   padding-bottom: 15px;
   margin: 0 auto;
 }
-#list-hike-ul {
+#list-movie-ul {
   line-height: 25px;
   font-size: 18px;
   margin: 0 auto;
@@ -226,7 +226,7 @@ li a {
 li a:hover {
 color: #779DC2;
 }
-.hike-list-li {
+.movie-list-li {
   margin-top: 10px;
   font-family: Raleway;
 }
@@ -324,4 +324,8 @@ h4 {
   display: inline-block;
   cursor: pointer;
   font-family: Raleway;
+}
+
+#video-style {
+width: 460px;
 }
