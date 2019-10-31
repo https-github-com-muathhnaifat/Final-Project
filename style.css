@@ -1,3 +1,30 @@
+.dark-header {
+  text-shadow: 3px 3px rgb(31, 38, 141);
+  font-display: bolder;
+  font-weight: bold;
+  font-family: cursive;
+  color: rgb(234, 238, 240);
+
+}
+#video-style {
+  width: 190px;
+  height: 290px;
+  float: left;
+  margin-right: 68px;
+  margin-top: 32px;
+  position: relative;
+  right: 196px;
+  top: -80px;
+  border: black outset;
+}
+#us{
+  text-align: center;
+    font-size: 26px;
+    margin-top: 70px;
+    color: #1e263ecf;
+    font-weight: bold;
+    font-family: cursive;
+}
 body {
   position: relative;
 }
@@ -30,6 +57,9 @@ header li a {
   font-family: Raleway;
   font-weight: 400;
   transition: 350ms all;
+  text-shadow: 3px 2px #6b0b3c;
+  font-weight: bold;
+
 }
 header li a:hover {
   color: #779DC2;
@@ -53,13 +83,18 @@ main {
 /* found opacity tricks from https://css-tricks.com/almanac/properties/o/opacity/ */
 .transparent-div {
   display: inline-block;
-  color: #000000; background: rgba(255, 255, 255, 0.8);
+  color: #000000;
+  background: rgba(255, 255, 255, 0.8);
   height: auto;
-  width: 33%;
+  width: 500px;
   margin-top: 14%;
   padding: 40px 10px;
   z-index: 100;
+  border-radius: 35px;
+  position: relative;
+  right: 320px;
 }
+
 .column-2 {
   display: inline-block;
   width: 32%;
@@ -68,27 +103,35 @@ main {
   z-index: -99;
 }
 .transparent-div p {
+  
   font-family: Raleway;
   font-weight: bold;
   text-align: center;
-  font-size: 18px;
+  font-size: 23px;
   margin-bottom: 12px;
 }
+.slide img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+}
 #main-button {
-  background-color: rgba(36,62,90,1);
+  background-color: rgb(88, 154, 189);
   border: none;
-  color: #FFF;
+  color: #e1e9f4;
   font-family: Raleway;
-  font-size: 20px;
+  font-size: 24px;
   padding: 15px 15px;
   width: 70%;
-  margin: 0% 15%;
+  margin: 2% 15%;
+  border-radius: 30px;
 }
-/* Find movie Form */
+
+
 .find-movie {
-  background-image: url('img/img13.jpg');
   background-size: cover;
   height: 70vh;
+
 }
 .find-movie-column-1 {
   display: inline-block;
@@ -96,14 +139,14 @@ main {
   float: left;
   height: 50px;
 }
-/* found opacity tricks from https://css-tricks.com/almanac/properties/o/opacity/ */
 .find-movie-div {
   display: inline-block;
-  color: #000000; background: rgba(255, 255, 255, 0.9);
-  height: auto;
-  width: 60%;
-  margin-top: 5%;
-  padding: 20px 10px;
+    color: #000000;
+    background: rgba(255, 255, 255, 0.9);
+    height: auto;
+    width: 60%;
+    margin-top: 5%;
+
 }
 .find-movie-column-2 {
   display: inline-block;
@@ -111,9 +154,7 @@ main {
   float: right;
   height: 50px;
 }
-.dark-header {
-  color: #e22323;
-}
+
 form {
   font-family: Raleway;
   text-align: center;
@@ -153,7 +194,7 @@ form button {
 #main-movie {
   font-family: Raleway;
   /* width: 50%; */
-  /* align: center; */
+  align: center;
   position: relative;
   z-index: 0;
   margin: 0 auto;
@@ -162,11 +203,11 @@ form button {
   /* display: inline-block; */
   color: #000000; background: rgba(255, 255, 255, 0.9);
   width: 60%;
-  /* height: 50%; */
+  height: 50%;
   margin-top: 30px;
   margin-left: 20%;
   margin-right: 20%;
-  /* margin: auto; */
+  margin: auto;
   position: relative;
   z-index: 99;
 }
@@ -236,6 +277,8 @@ li span {
 /* About Us */
 .about-us-header {
   background-color: #606267;
+  position: sticky;
+
 }
 .about-us-header div {
   width: 1000px;
@@ -269,11 +312,8 @@ h4 {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-.photo-div {
-  margin-right: 15px;
-  display: inline-block;
-  float: left;
-}
+
+
 .bio-div {
   display: inline;
   font-family: Raleway;
@@ -326,6 +366,24 @@ h4 {
   font-family: Raleway;
 }
 
-#video-style {
-width: 460px;
+
+div.main-body{
+  position: relative;
+  right: -260px;
+  width: 83%;
+  top: 50px;
+}
+div.main-body1{
+  position: relative;
+  right: -370px;
+  width: 900px;
+  top: 50px;
+}
+h2{
+  position: relative;
+    right: 194px;
+    top: -40px;
+    font-family: cursive;
+    color: #465bc1;
+    text-shadow: 3px 3px 3px #121215;
 }

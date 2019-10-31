@@ -9,6 +9,6 @@ var slider = new airSlider({
   autoPlayTime: 4000,
 
   // slider size
-  width: '100vw',
-  height: '100vh',
+  width: '98vw',
+  height: '97.5vh',
 });

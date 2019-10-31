@@ -1,79 +1,52 @@
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="vendor/air-slider-min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Raleway:300,400">
-    <title>Movies Land</title>
-  </head>
+
+<head>
+  <title>Movies Buddy</title>
+  <link rel="stylesheet" href="slider/air-slider-min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Raleway:300,400">
+</head>
+
+<body>
   <section class="background">
-        <div class="air-slider">
-          <div class="slide">
-            <img src="img/img1.jpg" alt="slide1"/>
-          </div>
-          <div class="slide">
-            <img src="img/img2.jpg" alt="slide2"/>
-          </div>
-          <div class="slide">
-            <img src="img/img3.jpg" alt="slide3"/>
-          </div>
-        </div>
-      </section>
-  <body class="find-movie">
-    <header>
-      <div>
-        <ul>
-          <li class="dark-header">Movies Land</li>
-          <li><a class="dark-header" href="about-us.html">About Us</a></li>
-          <li><a class="dark-header" href="find-movie.html">Movies Game</a></li>
-          <li><a class="dark-header" href="home.html">Home</a></li>
-
-        </ul>
+    <div class="air-slider">
+      <div class="slide">
+        <img src="img/img1.jpg" alt="slide1" />
       </div>
-      
-    </header>
-    <main>
-        <!-- <video controls
-        src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
-        poster="https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217"
-        width="620">
-    
-    </video> -->
-      <div class="main-body">
-        
-        <div class="find-movie-div">
-          <form id="find-movie">
-            <fieldset>
-              <label>Age</label>
-              <input type="radio" name="age" value=18 required><span>+18</span>
-              <input type="radio" name="age" value=0 required><span>-18</span>
-         
-            </fieldset>
-            <fieldset>
-              <label>Type</label>
-              <input type="radio" name="type" value="action" required><span>action</span>
-              <input type="radio" name="type" value="drama" required><span>drama</span>
-              <input type="radio" name="type" value="comedy" required><span>comedy</span>
-              
-            </fieldset>
-            <fieldset>
-              <label>Rate</label>
-              <input type="radio" name="rate" value="high" required><span>high</span>
-              <input type="radio" name="rate" value="mid" required><span>mid</span>
-              <input type="radio" name="rate" value="low" required><span>low</span>
-
-            </fieldset>
-            <button type="submit" id="submit-btn">Find Movie</button>
-          </form>
-        </div>
+      <div class="slide">
+        <img src="img/img2.jpg" alt="slide2" />
       </div>
-      
-    
-    </main>
-    <footer>
-    </footer>
-    <script src="app.js"></script>
-    <script src="vendor/air-slider-min.js"></script>
-    <script src="slider.js"></script>
-  </body>
+      <div class="slide">
+        <img src="img/img3.jpg" alt="slide3" />
+      </div>
+    </div>
+  </section>
+  <header>
+    <div>
+      <ul>
+        <li>Movies Buddy</li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="tickets.html">Top Movies</a></li>
+        <li><a href="home.html">Find a Movie</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <div class="main-body1">
+      <div class="column-1"></div>
+      <div class="transparent-div">
+        <p>find the best movie for you </p>
+        <a href="index.html"><button id="main-button">Find a movie</button></a>
+      </div>
+      <div class="column-2"></div>
+    </div>
+  </main>
+  <script src="app.js"></script>
+  <script src="slider/air-slider-min.js"></script>
+  <script src="slider.js"></script>
+</body>
+
 </html>
